@@ -1,0 +1,23 @@
+- const footer = LANG.footer;
+
+
+footer
+    div.container
+        section.footer
+            div.footer_links
+                each link in footer.footer_links
+                    a(href="#")= link.link
+            div.footer_cr
+                p= footer.footer_cr
+            //-     each card in footerCols
+            //-         div.footer_col
+            //-             div.footer_col--title
+            //-                 a(href="#")= card.col_title
+            //-             div.footer_col--link
+            //-                 each link in card.col_links
+            //-                     a(href="#")= link.col_link
+            //- div.footer_info
+            //-     div.footer_logo
+            //-         img(src=footerInfo.footer_img)
+            //-     div.footer_text
+            //-         p= footerInfo.footer_text
